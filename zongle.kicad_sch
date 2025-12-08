@@ -4130,7 +4130,7 @@
 		(uuid "146c8466-2d48-4c45-a40c-c7be599b1247")
 	)
 	(no_connect
-		(at 34.29 149.86)
+		(at 30.48 109.22)
 		(uuid "1c636b19-fd1e-48c8-9514-a8863cc5df03")
 	)
 	(no_connect
@@ -4515,7 +4515,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 34.29 144.78 180)
+		(at 30.48 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4525,7 +4525,7 @@
 		)
 		(uuid "178501c5-cb1d-4e3d-9b7e-ae640844d946")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.8577 144.78 0)
+			(at 24.0477 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4691,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 34.29 147.32 180)
+		(at 30.48 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4701,7 +4701,7 @@
 		)
 		(uuid "70e6e204-bbd1-4954-92ed-56c10fafee5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.0758 147.32 0)
+			(at 21.2658 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4779,7 @@
 	)
 	(global_label "VDD_NRF"
 		(shape input)
-		(at 45.72 137.16 90)
+		(at 41.91 96.52 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4789,7 +4789,7 @@
 		)
 		(uuid "9b4f1347-083c-4d01-9eae-f28a50170e0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 125.8895 90)
+			(at 41.91 85.2495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4823,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 34.29 142.24 180)
+		(at 30.48 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4833,7 +4833,7 @@
 		)
 		(uuid "afd11a0f-521c-4e6a-81a7-c654b6b08c31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4386 142.24 0)
+			(at 21.6286 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-various:TC2030_SWD")
-		(at 40.64 147.32 0)
+		(at 36.83 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5406,7 +5406,7 @@
 		(fields_autoplaced yes)
 		(uuid "2893c783-d3f2-457c-ba90-266c31c70c06")
 		(property "Reference" "SWD1"
-			(at 48.26 144.7799 0)
+			(at 44.45 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5415,7 @@
 			)
 		)
 		(property "Value" "TC2030_SWD"
-			(at 48.26 147.3199 0)
+			(at 44.45 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5424,7 @@
 			)
 		)
 		(property "Footprint" "marbastlib-various:CON_TC2030_outlined"
-			(at 50.8 146.05 90)
+			(at 46.99 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 8.255 161.29 0)
+			(at 4.445 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5442,7 @@
 			)
 		)
 		(property "Description" "6-pin TC2030 connector for SWD programming"
-			(at 40.64 147.32 0)
+			(at 36.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 154.94 0)
+		(at 41.91 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5622,7 +5622,7 @@
 		(fields_autoplaced yes)
 		(uuid "3814be24-a5fa-4e44-9034-0bb602865d42")
 		(property "Reference" "#PWR07"
-			(at 45.72 161.29 0)
+			(at 41.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 160.02 0)
+			(at 41.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 154.94 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +5648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 154.94 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 154.94 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
