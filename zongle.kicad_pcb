@@ -845,6 +845,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C31523286"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0602c3bc-04ce-4176-8697-da4f8b65833a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d7c31e0c-d8c9-41f0-b66c-3158d6fd6ba1")
 		(sheetname "/")
 		(sheetfile "zongle.kicad_sch")
@@ -6794,6 +6806,44 @@
 			(at 162.32 112.35 90)
 			(layer "Dwgs.User")
 			(uuid "1a07ea85-4b0a-4e31-88cf-d62f3408cd64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "76fbcecc-91f4-449b-8f0d-46778ae63eb5")
+		(pts
+			(xy 155.79 102.51) (xy 158.47 102.53)
+		)
+		(height -10.58)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.68"
+			(at 157.13 90.78 0)
+			(layer "Dwgs.User")
+			(uuid "76fbcecc-91f4-449b-8f0d-46778ae63eb5")
 			(effects
 				(font
 					(size 1 1)
