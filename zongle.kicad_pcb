@@ -1678,6 +1678,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "/Users/schmi/Desktop/u/syms/BL653_59/BL653ę 453-00059_3D Model.STEP"
+			(offset
+				(xyz 0 0 -0.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "USB_C_MALE_LONG:USB_C_MALE_LONG"
 		(layer "F.Cu")
