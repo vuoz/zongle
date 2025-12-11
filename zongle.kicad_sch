@@ -4235,10 +4235,6 @@
 		(uuid "9687f568-8e36-4996-9ccb-f3407c1d85e9")
 	)
 	(no_connect
-		(at 132.08 113.03)
-		(uuid "9a8b05c0-d2fa-4aa9-800d-300592c7e25c")
-	)
-	(no_connect
 		(at 185.42 95.25)
 		(uuid "a0e80fad-8470-4834-b54e-66fff1270aee")
 	)
@@ -4253,6 +4249,10 @@
 	(no_connect
 		(at 149.86 107.95)
 		(uuid "b180ae59-706c-47d8-9cd8-e8ed28d299a9")
+	)
+	(no_connect
+		(at 71.12 74.93)
+		(uuid "be163b35-2e40-45b9-95c5-a5b2ca8f27f8")
 	)
 	(no_connect
 		(at 71.12 90.17)
@@ -4450,22 +4450,22 @@
 	)
 	(global_label "LED_ST"
 		(shape input)
-		(at 71.12 74.93 180)
+		(at 132.08 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "06f48b3c-bd30-49dd-91f2-004d9ff89bfb")
+		(uuid "02784fca-ff7e-4c81-8afd-a9edb8fa3279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.543 74.93 0)
+			(at 141.657 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4923,6 +4923,28 @@
 		(uuid "c42db8c1-7250-47a0-b18a-6a5c1a88c161")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.7624 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_Raw"
+		(shape input)
+		(at 25.4 25.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caa47507-7df1-440b-b033-505efa4764cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 38.0009 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "D-"
 			(at 69.85 44.9579 0)
 			(effects
 				(font
@@ -5564,7 +5586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+5v"
 			(at 41.91 44.9579 0)
 			(effects
 				(font
@@ -6169,7 +6191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "D+"
 			(at 55.88 44.9579 0)
 			(effects
 				(font
@@ -7496,7 +7518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Gnd"
 			(at 27.94 44.9579 0)
 			(effects
 				(font
@@ -8158,6 +8180,73 @@
 			(project ""
 				(path "/e563ac8d-b93c-431b-8d13-48f254367838"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdec328c-faaa-42d4-a8f2-248ad46b9cfc")
+		(property "Reference" "TpVBUS1"
+			(at 27.94 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 27.94 23.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 30.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e45bc48-d848-4590-998f-88306672123d")
+		)
+		(instances
+			(project "zongle"
+				(path "/e563ac8d-b93c-431b-8d13-48f254367838"
+					(reference "TpVBUS1")
 					(unit 1)
 				)
 			)
