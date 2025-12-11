@@ -4175,10 +4175,6 @@
 		(uuid "4d103bae-1d19-4cbb-82e6-894c70f7948b")
 	)
 	(no_connect
-		(at 132.08 110.49)
-		(uuid "5178f444-06b9-4dc6-86ba-32b4b497f473")
-	)
-	(no_connect
 		(at 149.86 95.25)
 		(uuid "52bbfaf5-0d36-41af-9105-d3d0c1de15f1")
 	)
@@ -4193,6 +4189,10 @@
 	(no_connect
 		(at 71.12 77.47)
 		(uuid "67fa10c1-c2b9-4d37-92f7-4a91cd2945ec")
+	)
+	(no_connect
+		(at 132.08 113.03)
+		(uuid "68219ec4-c541-4373-af09-203bb6a89147")
 	)
 	(no_connect
 		(at 149.86 113.03)
@@ -4450,7 +4450,7 @@
 	)
 	(global_label "LED_ST"
 		(shape input)
-		(at 132.08 113.03 0)
+		(at 132.08 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4460,7 +4460,7 @@
 		)
 		(uuid "02784fca-ff7e-4c81-8afd-a9edb8fa3279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.657 113.03 0)
+			(at 141.657 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
