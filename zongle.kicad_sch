@@ -4091,13 +4091,19 @@
 		)
 	)
 	(junction
+		(at 176.53 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "007f973f-e59c-4b72-bce7-9837cc87f609")
+	)
+	(junction
 		(at 185.42 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ba16654-62d2-4a73-a4d5-0f99e1f4da84")
 	)
 	(junction
-		(at 175.26 74.93)
+		(at 182.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59779007-c49b-41f6-824d-7948506fd732")
@@ -4112,7 +4118,7 @@
 		(at 170.18 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad240cb7-bd94-4891-b088-2d5da8922fa1")
+		(uuid "a98916b5-ffaf-4e44-b7b3-bc9601b80456")
 	)
 	(junction
 		(at 138.43 52.07)
@@ -4340,6 +4346,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 74.93) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373b1efd-d13f-43a0-9f64-2beb3ce3066a")
+	)
+	(wire
+		(pts
 			(xy 147.32 100.33) (xy 149.86 100.33)
 		)
 		(stroke
@@ -4347,6 +4363,16 @@
 			(type default)
 		)
 		(uuid "3a590aca-e554-4dfc-85f1-9fe9c496b989")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e289968-e124-43c3-9d6d-f58f2a56064a")
 	)
 	(wire
 		(pts
@@ -4360,7 +4386,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 74.93) (xy 175.26 74.93)
+			(xy 156.21 74.93) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7254ceba-101d-46d7-b260-374b501fb464")
+	)
+	(wire
+		(pts
+			(xy 170.18 74.93) (xy 176.53 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4432,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "968c4a53-4eba-4dc4-968e-31354aee857e")
+		(uuid "bf59ec30-78f1-4211-abad-48c72645ad92")
 	)
 	(wire
 		(pts
@@ -4427,16 +4463,6 @@
 			(type default)
 		)
 		(uuid "f74027d0-40b6-4145-8dbc-7f2f7bfc7aed")
-	)
-	(wire
-		(pts
-			(xy 154.94 74.93) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3cec8c-456a-4538-8fb5-cd82df416521")
 	)
 	(wire
 		(pts
@@ -5009,7 +5035,7 @@
 		(dnp no)
 		(uuid "159e5f71-de46-4fde-90d6-90543e51d41a")
 		(property "Reference" "C22"
-			(at 166.878 70.358 0)
+			(at 168.402 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 187.96 125.73 0)
 			(effects
 				(font
@@ -6063,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 175.26 74.93 0)
+		(at 182.88 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6072,7 +6098,7 @@
 		(fields_autoplaced yes)
 		(uuid "744ee017-e5a9-4a30-9b9a-c8261a079da6")
 		(property "Reference" "#PWR04"
-			(at 175.26 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6107,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 175.26 69.85 0)
+			(at 182.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6155,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 160.02 74.93 90)
+		(at 165.1 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,15 +6163,15 @@
 		(dnp no)
 		(uuid "74b4d2d6-da1e-41cd-b573-6cf7822a6fdc")
 		(property "Reference" "FB1"
-			(at 159.766 70.866 90)
+			(at 164.846 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 Ω @ 100 MHz"
-			(at 157.226 67.818 90)
+		(property "Value" "BLM15PX121SN1D"
+			(at 165.608 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 160.02 76.708 90)
+			(at 165.1 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 74.93 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6197,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 160.02 74.93 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -6949,7 +6975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 97.79 38.1 0)
 			(effects
 				(font
@@ -7059,7 +7085,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 175.26 74.93 180)
+		(at 182.88 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7067,7 +7093,7 @@
 		(dnp no)
 		(uuid "a9ec320d-5968-4742-8a36-35180e99eee4")
 		(property "Reference" "#PWR018"
-			(at 175.26 71.12 0)
+			(at 182.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7102,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 175.514 79.756 0)
+			(at 183.134 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,6 +7143,75 @@
 			(project ""
 				(path "/e563ac8d-b93c-431b-8d13-48f254367838"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 176.53 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b699f704-f884-44c8-a572-6a672bb475aa")
+		(property "Reference" "C27"
+			(at 174.244 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 174.752 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a4a342f-f5b3-49dc-813c-7bdf4e42b27d")
+		)
+		(pin "2"
+			(uuid "48ce4ea0-c64f-47cc-a4bb-597eedad74d0")
+		)
+		(instances
+			(project "zongle"
+				(path "/e563ac8d-b93c-431b-8d13-48f254367838"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7876,7 +7971,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 165.1 74.93 0)
+		(at 158.75 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7884,15 +7979,15 @@
 		(dnp no)
 		(uuid "d9c1d129-d60a-47e1-bd5f-8ccce1c669c1")
 		(property "Reference" "F1"
-			(at 165.1 73.406 0)
+			(at 158.75 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "750mA"
-			(at 165.1 76.708 0)
+		(property "Value" "500mA"
+			(at 158.75 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7995,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
-			(at 165.1 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +8004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8013,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 165.1 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,6 +8097,72 @@
 			(project ""
 				(path "/e563ac8d-b93c-431b-8d13-48f254367838"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f382b084-dbd2-46c8-b846-2c7b4e36f45e")
+		(property "Reference" "#PWR01"
+			(at 176.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c604c93-67fb-4614-b0dc-53058995b46a")
+		)
+		(instances
+			(project "zongle"
+				(path "/e563ac8d-b93c-431b-8d13-48f254367838"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
